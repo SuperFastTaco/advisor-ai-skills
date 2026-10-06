@@ -1,0 +1,4 @@
+interface:
+  display_name: "Advisor Brand Guide"
+  short_description: "Review brand materials and create agent branding rules"
+  default_prompt: "Use $advisor-brand-guide to review my logos, website, brochures, and photos first, ask only missing questions, and create Advisor-branding-rules.md and a visual PDF for my agents."

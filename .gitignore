@@ -1,0 +1,12 @@
+# Private authoring context and working material.
+.local/
+tmp/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+
+# Generated PDFs can be attached to a release separately.
+output/
