@@ -6,9 +6,16 @@ Each skill guides an agent through a specific advisor workflow and produces a us
 
 ## Get started
 
-Read [Start Here](guides/start-here.md) for customer instructions. Open the complete [Advisor Brand Guide skill folder](skills/advisor-brand-guide/) for its instructions and bundled resources. For downloadable PDF editions and customer handouts, see [the latest release](https://github.com/SuperFastTaco/advisor-ai-skills/releases/latest).
+Choose the workflow you need. Each skill folder contains its instructions and bundled resources; the customer guide explains how to start.
 
-## First skill: Advisor Brand Guide
+| Skill folder | Result | Customer guide |
+|---|---|---|
+| [Advisor Brand Guide](skills/advisor-brand-guide/) | Your practice's Markdown branding rules and visual PDF | [Create your brand guide](guides/start-here.md) |
+| [First Appointment Packet](skills/first-appointment-packet/) | Six coordinated packet designs, review mockups, and a requested final ordering handoff | [Create your appointment packet](guides/first-appointment-packet-start-here.md) |
+
+For downloadable PDF editions and customer handouts, see [the latest release](https://github.com/SuperFastTaco/advisor-ai-skills/releases/latest).
+
+## Advisor Brand Guide
 
 [Advisor Brand Guide](skills/advisor-brand-guide/SKILL.md) first requests and scans the advisor's logos, website, brochures, and photos, then asks only about missing information or conflicts. It creates `Advisor-branding-rules.md` and `Advisor-branding-rules.pdf`, covering mission, values, services, ideal clients, positioning, voice, color palette, typography, logos, imagery, and other marketing rules. The PDF embeds color swatches and available logos and photos. It works without prior AI experience; unavailable materials remain clearly identified.
 
@@ -17,6 +24,18 @@ Customer instructions are in [Start Here](guides/start-here.md). The skill instr
 In Codex, after installation, start with:
 
 > Use $advisor-brand-guide to review my website, logos, brochures, and photos first, ask only missing questions, and create Advisor-branding-rules.md and a visual PDF for my agents.
+
+## First Appointment Packet
+
+[First Appointment Packet](skills/first-appointment-packet/SKILL.md) uses your website, logo assets, and brand guide to design a packet mailed before an already scheduled first appointment. It creates six coordinated pieces: a mailing envelope, pen, notepad, handwritten note card, card envelope, and company brochure. The starting quantity is 50 packets; tell the agent if you need a different count.
+
+It accepts the Advisor Brand Guide's `Advisor-branding-rules.md` output and readable PDF brand guides. The agent reviews your materials, asks only for missing details, prepares the first designs and mockups, and applies your revisions. When you request the final handoff, it assembles the selected files, project preview, editable Word ordering guide, and ZIP, identifying any remaining printer preparation.
+
+Customer instructions are in [Create your appointment packet](guides/first-appointment-packet-start-here.md).
+
+In Codex, after installation, start with:
+
+> Use $first-appointment-packet to review my website, logo files, and brand guide, ask only for missing information, and design all six pieces for 50 first-appointment packets. Show the first pass for review.
 
 ## Two ways to use a skill
 
@@ -51,9 +70,13 @@ The export preserves literal Markdown as selectable text. For a skill folder, it
 
 ## Install from GitHub in Codex
 
-Ask Codex:
+For Advisor Brand Guide, ask Codex:
 
 > Use the skill installer to install `skills/advisor-brand-guide` from `SuperFastTaco/advisor-ai-skills`.
+
+For First Appointment Packet, ask Codex:
+
+> Use the skill installer to install `skills/first-appointment-packet` from `SuperFastTaco/advisor-ai-skills`.
 
 The installer needs the skill-folder path, not just the repository name. Codex normally installs to `~/.codex/skills`; a configured `CODEX_HOME` changes that location. The bundled installer stops if the destination already exists, so updating an installed skill needs a separate replacement step.
 
@@ -67,4 +90,4 @@ Local authoring context belongs in `.local/`, which is excluded from Git. Genera
 
 ## License
 
-This library is licensed under the [MIT License](LICENSE), copyright 2026 Kevin Nuber. You may use, modify, and redistribute the skills, including commercially, while preserving the copyright and license notice. The installable skill folder includes its own copy of the license notice.
+This library is licensed under the [MIT License](LICENSE), copyright 2026 Kevin Nuber. You may use, modify, and redistribute the skills, including commercially, while preserving the copyright and license notice. Each installable skill folder includes its own copy of the license notice.

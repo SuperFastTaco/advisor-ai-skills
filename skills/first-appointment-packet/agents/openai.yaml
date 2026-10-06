@@ -1,0 +1,4 @@
+interface:
+  display_name: "First Appointment Packet"
+  short_description: "Design and source an advisor’s first appointment packet"
+  default_prompt: "Use $first-appointment-packet to create my prospect packet from my website, logo files, and brand guide. Design all six pieces, support revisions, and assemble the final handoff when I request it."
