@@ -12,6 +12,7 @@ Choose the workflow you need. Each skill folder contains its instructions and bu
 |---|---|---|
 | [Advisor Brand Guide](skills/advisor-brand-guide/) | Your practice's Markdown branding rules and visual PDF | [Create your brand guide](guides/start-here.md) |
 | [First Appointment Packet](skills/first-appointment-packet/) | Six coordinated packet designs, review mockups, and a requested final ordering handoff | [Create your appointment packet](guides/first-appointment-packet-start-here.md) |
+| [Advisor Logo Design](skills/advisor-logo-design/) | Practice-specific logo concepts, revisions, and selected logo assets and rules | [Create your logo](guides/advisor-logo-design-start-here.md) |
 
 For downloadable PDF editions and customer handouts, see [the latest release](https://github.com/SuperFastTaco/advisor-ai-skills/releases/latest).
 
@@ -36,6 +37,16 @@ Customer instructions are in [Create your appointment packet](guides/first-appoi
 In Codex, after installation, start with:
 
 > Use $first-appointment-packet to review my website, logo files, and brand guide, ask only for missing information, and design all six pieces for 50 first-appointment packets. Show the first pass for review.
+
+## Advisor Logo Design
+
+[Advisor Logo Design](skills/advisor-logo-design/SKILL.md) reviews the advisor's branding guide, website, logos, brochures, and conversation context before asking only unanswered questions. It develops distinct concepts for the practice's audience and positioning, supports revisions, and prepares accepted assets and reusable logo rules. It works with an existing brand guide or a new practice.
+
+Native image generation is preferred when available. The complete folder includes an optional Gemini/OpenAI API helper for capable environments and a prompt-only route when generation is unavailable. Native generation has been checked with fictional materials; API handling has been checked offline, with live paid calls and other agents' installation behavior still unverified.
+
+After installation in Codex, start with:
+
+> Use $advisor-logo-design to review my branding guide, website, logos, and brochures first, ask only unanswered questions, and create three distinct logo concepts for my practice.
 
 ## Two ways to use a skill
 
@@ -78,6 +89,10 @@ For First Appointment Packet, ask Codex:
 
 > Use the skill installer to install `skills/first-appointment-packet` from `SuperFastTaco/advisor-ai-skills`.
 
+For Advisor Logo Design, ask Codex:
+
+> Use the skill installer to install `skills/advisor-logo-design` from `SuperFastTaco/advisor-ai-skills`.
+
 The installer needs the skill-folder path, not just the repository name. Codex normally installs to `~/.codex/skills`; a configured `CODEX_HOME` changes that location. The bundled installer stops if the destination already exists, so updating an installed skill needs a separate replacement step.
 
 Codex installation behavior has been checked against the bundled installer. Native installation in other agents will be documented after verification.
@@ -91,3 +106,5 @@ Local authoring context belongs in `.local/`, which is excluded from Git. Genera
 ## License
 
 This library is licensed under the [MIT License](LICENSE), copyright 2026 Kevin Nuber. You may use, modify, and redistribute the skills, including commercially, while preserving the copyright and license notice. Each installable skill folder includes its own copy of the license notice.
+
+Advisor Logo Design also retains Duc Nguyen's upstream copyright and MIT notice in its [license and attribution](skills/advisor-logo-design/LICENSE.md).

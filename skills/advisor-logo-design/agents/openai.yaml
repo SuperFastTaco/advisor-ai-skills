@@ -1,0 +1,4 @@
+interface:
+  display_name: "Advisor Logo Design"
+  short_description: "Create a logo for your financial advisory practice"
+  default_prompt: "Use $advisor-logo-design to review my existing materials, ask only unanswered questions, and create three logo concepts for my practice."
