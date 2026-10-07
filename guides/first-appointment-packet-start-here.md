@@ -1,6 +1,6 @@
 # Create Your First Appointment Packet
 
-Use this skill to prepare a coordinated packet for prospects who already have a first appointment scheduled with your practice. It creates six pieces:
+Use this skill to prepare a coordinated packet for prospects who already have a first appointment scheduled with your practice. It creates seven pieces:
 
 - A branded mailing envelope.
 - A branded pen.
@@ -8,6 +8,9 @@ Use this skill to prepare a coordinated packet for prospects who already have a 
 - A handwritten note card with a blank interior.
 - A branded card envelope.
 - A company brochure.
+- An office directions sheet with a verified map and Google Maps QR code.
+
+The complete skill folder includes a reusable Word directions template with the approved layout and text-box padding. Its map, logo and QR are placeholders; the agent must replace them for your office. Supply or confirm your meeting address and office phone if they are not already in your materials. For virtual-only appointments, tell the agent to omit the directions sheet.
 
 The starting quantity is **50 packets**, one of each piece per recipient. Tell the agent if you need a different count. Supplier minimums may produce extras; the ordering guide should show those separately.
 
@@ -19,11 +22,13 @@ To install the [complete skill folder](https://github.com/SuperFastTaco/advisor-
 
 Then start with:
 
-> Use $first-appointment-packet to create my practice's first appointment packet. Review my website, logo files, and brand guide first. Ask only for missing details. Design all six pieces for 50 packets and show the first pass for review.
+> Use $first-appointment-packet to create my practice's first appointment packet. Review my website, logo files, and brand guide first. Ask only for missing details. Design all seven pieces for 50 packets and show the first pass for review.
 
 You can also [download the skill PDF from the latest release](https://github.com/SuperFastTaco/advisor-ai-skills/releases/latest), attach it to an agent that can read PDFs, and use:
 
-> Read the attached First Appointment Packet skill and follow it to create my practice's packet. Review my website, logo files, and brand guide, ask only for missing details, and design the six pieces for 50 packets. Show the first pass for review.
+> Read the attached First Appointment Packet skill and follow it to create my practice's packet. Review my website, logo files, and brand guide, ask only for missing details, and design the seven pieces for 50 packets. Show the first pass for review.
+
+Download the [complete skill folder](https://github.com/SuperFastTaco/advisor-ai-skills/tree/main/skills/first-appointment-packet) as well for the editable Word template; the instruction PDF lists that resource but does not contain its editable contents.
 
 Attaching the PDF supplies instructions for that chat. It does not install the skill or provide permanent memory. Native installation is verified for Codex; other agents remain unverified.
 
@@ -37,7 +42,7 @@ The agent reviews what you supply before asking about gaps. It may need your bud
 
 ## Review, revise, and request the handoff
 
-Review the six coordinated designs and mockups, then tell the agent what to change. When the selected designs are ready, use:
+Review the seven coordinated designs and mockups, then tell the agent what to change. When the selected designs are ready, use:
 
 > These are final. Assemble the complete handoff with the selected designs, mockups, project preview PDF, editable Word ordering guide, and ZIP. Identify any remaining printer preparation and which files to send for each item.
 

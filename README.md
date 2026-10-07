@@ -11,7 +11,7 @@ Choose the workflow you need. Each skill folder contains its instructions and bu
 | Skill folder | Result | Customer guide |
 |---|---|---|
 | [Advisor Brand Guide](skills/advisor-brand-guide/) | Your practice's Markdown branding rules and visual PDF | [Create your brand guide](guides/start-here.md) |
-| [First Appointment Packet](skills/first-appointment-packet/) | Six coordinated packet designs, review mockups, and a requested final ordering handoff | [Create your appointment packet](guides/first-appointment-packet-start-here.md) |
+| [First Appointment Packet](skills/first-appointment-packet/) | Seven coordinated packet designs, review mockups, and a requested final ordering handoff | [Create your appointment packet](guides/first-appointment-packet-start-here.md) |
 | [Advisor Logo Design](skills/advisor-logo-design/) | Practice-specific logo concepts, revisions, and selected logo assets and rules | [Create your logo](guides/advisor-logo-design-start-here.md) |
 
 For downloadable PDF editions and customer handouts, see [the latest release](https://github.com/SuperFastTaco/advisor-ai-skills/releases/latest).
@@ -28,7 +28,7 @@ In Codex, after installation, start with:
 
 ## First Appointment Packet
 
-[First Appointment Packet](skills/first-appointment-packet/SKILL.md) uses your website, logo assets, and brand guide to design a packet mailed before an already scheduled first appointment. It creates six coordinated pieces: a mailing envelope, pen, notepad, handwritten note card, card envelope, and company brochure. The starting quantity is 50 packets; tell the agent if you need a different count.
+[First Appointment Packet](skills/first-appointment-packet/SKILL.md) uses your website, logo assets, and brand guide to design a packet mailed before an already scheduled first appointment. It creates seven coordinated pieces: a mailing envelope, pen, notepad, handwritten note card, card envelope, company brochure, and office directions sheet. The starting quantity is 50 packets; tell the agent if you need a different count.
 
 It accepts the Advisor Brand Guide's `Advisor-branding-rules.md` output and readable PDF brand guides. The agent reviews your materials, asks only for missing details, prepares the first designs and mockups, and applies your revisions. When you request the final handoff, it assembles the selected files, project preview, editable Word ordering guide, and ZIP, identifying any remaining printer preparation.
 
@@ -36,7 +36,7 @@ Customer instructions are in [Create your appointment packet](guides/first-appoi
 
 In Codex, after installation, start with:
 
-> Use $first-appointment-packet to review my website, logo files, and brand guide, ask only for missing information, and design all six pieces for 50 first-appointment packets. Show the first pass for review.
+> Use $first-appointment-packet to review my website, logo files, and brand guide, ask only for missing information, and design all seven pieces for 50 first-appointment packets. Show the first pass for review.
 
 ## Advisor Logo Design
 

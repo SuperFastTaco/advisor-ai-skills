@@ -13,6 +13,7 @@ Use these as optional sourcing leads and illustrative starting specifications, n
 | Alternate envelope | [UPrinting A2 Envelopes](https://www.uprinting.com/a2-envelopes.html) | A2 full color; verify its minimum separately from any one-color configuration |
 | Pen | [Trident LaserWorks Soft Touch Stylus Pens](https://www.tridentlaserworks.com/products/soft-touch-stylus-pens) | 50, white barrel/silver trim/black ink, full-color UV when appropriate for the advisor's logo |
 | Brochure | [UPrinting Bi Fold Brochures](https://www.uprinting.com/bi-fold-brochure.html) | 50, 11 × 8.5 flat, half fold, 100 lb matte text, full-color outside/inside |
+| Office directions | Office printer or local copy service | 50 loose US Letter sheets, portrait, single sided; suggested white uncoated 24–28 lb text stock |
 
 Use one printer for compatible pieces where practical. Do not accept a visibly wrong pen color or unnecessarily large minimum just to keep one supplier. Conversely, do not change an approved design or vendor without explaining the practical reason. Equivalent suppliers are acceptable when their verified products meet the advisor's needs. Local availability, delivery country, budget, and timing may change the selection.
 
@@ -67,6 +68,10 @@ For FedEx, consult [its shipping label guidance](https://www.fedex.com/en-us/shi
 - Use native type/vector logos; target suitable effective image resolution at placed size, normally around 300 ppi when requested by the printer. Do not upscale/AI-reinvent a real person to disguise insufficient resolution.
 - Approximate content: cover 20–50 words, team/value 80–120, services 100–150, first appointment/contact 60–100. Treat these as editing aids, not quotas. Allow room for actual required firm text.
 - These are marketing materials, not a substitute for any required regulatory brochure. Use supplied firm wording and flag missing required footer text; do not create generic legal filler.
+
+## Office directions sheet
+
+Follow [Office directions](office-directions.md) for the template, map, QR and alignment checks. Supply an editable Word file and one-page PDF. On ordinary office printers, use Fit to printable area if the design reaches the edges; expect a white border. Commercial edge-to-edge printing requires the selected printer’s bleed specification and a prepared export. Do not call the Letter-size review PDF a bleed-ready commercial file. Record the chosen printing route and quantity; do not invent a vendor quote.
 
 ## Product evidence record
 

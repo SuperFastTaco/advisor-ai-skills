@@ -19,6 +19,7 @@ Use the advisor's real firm name:
     05 Pen Design Reference.pdf
     06 Brochure Reading Copy.pdf
     07 Brochure Flat Spreads.pdf
+    08 Office Directions.pdf
   02 Mockup Pictures/
     01 Mailing Envelope.png
     02 Notepad Card and Envelope.png
@@ -31,14 +32,20 @@ Use the advisor's real firm name:
     04 Branded Card Envelope/
     05 Pen/
     06 Brochure/
+    07 Office Directions/
+      Office Directions.pdf
+      Office Directions Editable.docx
+      READ BEFORE PRINTING.txt
   04 Brand Assets/
 ```
 
 Names may change for clarity, but the guide must reference the actual relative paths. Include only the selected versions. Store editable design sources and build scripts in the project workspace; include them in the delivery only if useful to the advisor or printer. Do not include temporary PDFs, rendered Word QA pages, sample prospect addresses, private research files or superseded artwork.
 
-The combined project preview should show all six items and identify their dimensions/use. Make individual designs readable in their own PDFs. Include both front and back of the inner envelope and the card's intentionally blank inside. The pen's reference PDF must say when it is not an exact-size imprint file.
+The combined project preview should show all seven items and identify their dimensions/use. Make individual designs readable in their own PDFs. Include both front and back of the inner envelope and the card's intentionally blank inside. The pen's reference PDF must say when it is not an exact-size imprint file.
 
 Mockups show appearance. They do not establish printable artwork, stock color, physical fit, fold geometry, or carrier certification. Use separate clean, correctly sized artwork in each printer folder. Label supplier templates as references and keep their guides out of printable art.
+
+For the office directions sheet, include its readable page in the preview, the fixed-layout PDF, editable Word source and printing notes. A photographic mockup is optional for this flat insert. Identify office printing or the actual copy service, one sheet per in-person packet (50 by default), stock, scaling/border expectations and any commercial bleed preparation. Include the sheet with the brochure during assembly. Verify the rendered QR points to the current advisor’s actual meeting address; test a physical copy before the full run.
 
 ## Word ordering guide
 
@@ -46,7 +53,7 @@ Use available document authoring tools; when a documents skill is available, fol
 
 Include:
 
-1. **Purpose and shopping list:** one of each of the six items per recipient; target packet count; recommended supplier and order quantity per item; minimum-order surplus.
+1. **Purpose and shopping list:** one of each of the seven items per recipient; target packet count; recommended supplier and order quantity per item; minimum-order surplus.
 2. **Exact product links:** clickable official product pages, product names/model identifiers where available, and the verification date. Say when links are generic product pages rather than saved configurations.
 3. **Options to select:** dimensions, stock/material, finish, sides, colors, sheets per pad, fold/glue edge, writable areas, and the specific pen decoration/barrel choice. Distinguish confirmed options from a custom quote request.
 4. **Files to send:** exact relative folder/file names, what each file is for, and any templates/brand masters needed. Clearly distinguish reader PDFs and mockups from printable artwork.
@@ -65,7 +72,7 @@ If a vendor-specific specification or advisor-supplied footer is still missing, 
 
 ## Final checks and delivery
 
-- Open every included PDF. Verify pages, trim/bleed dimensions, blank intentional pages, layout and copy. Confirm all six items are represented and no previous advisor identifiers remain.
+- Open every included PDF. Verify pages, trim/bleed dimensions, blank intentional pages, layout and copy. Confirm all seven items are represented and no previous advisor identifiers remain.
 - Check the guide against actual files and product configurations. Verify its hyperlinks and inspect its rendered pages for clipping, awkward breaks and unreadable tables.
 - Refresh mockups after the last relevant design changes. Compare them to the PDFs; do not leave a rejected color or old contact detail in the final picture set.
 - Ensure the ZIP opens, paths are portable, and all named assets are present. Keep the final folder and ZIP together under a clear deliverables location.

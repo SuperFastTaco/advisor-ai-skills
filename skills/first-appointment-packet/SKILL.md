@@ -1,16 +1,16 @@
 ---
 name: first-appointment-packet
-description: Design and source a financial advisor's branded prospect packet mailed before an already scheduled first appointment, using their website, logo assets, and brand guide. Create six coordinated pieces and review mockups, support revisions, and assemble the final PDF and Word ordering handoff when requested.
+description: Design and source a financial advisor's branded prospect packet mailed before an already scheduled first appointment, using their website, logo assets, and brand guide. Create seven coordinated pieces and review mockups, support revisions, and assemble the final PDF and Word ordering handoff when requested.
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # First Appointment Packet
 
 Create a coordinated physical packet that makes a prospect feel expected, presents the advisor professionally, and explains the advisor's value in very few words. The business goal is to encourage attendance at the already scheduled first appointment; do not claim a measured attendance improvement.
 
-The complete skill folder is at [First Appointment Packet on GitHub](https://github.com/SuperFastTaco/advisor-ai-skills/tree/main/skills/first-appointment-packet). In the PDF edition, the two linked references appear later under their `Source:` labels; read those included sections. The full MIT notice is in [LICENSE.md](LICENSE.md) and is included in the PDF edition.
+The complete skill folder is at [First Appointment Packet on GitHub](https://github.com/SuperFastTaco/advisor-ai-skills/tree/main/skills/first-appointment-packet). In the PDF edition, the linked Markdown references appear later under their `Source:` labels; read those included sections. The full MIT notice is in [LICENSE.md](LICENSE.md) and is included in the PDF edition.
 
 ## Required inputs
 
@@ -52,7 +52,7 @@ After reviewing the supplied batch, summarize what it establishes and ask only t
 
 ## Scope and defaults
 
-Build these **six specific pieces**, plus review mockups and the final ordering handoff:
+Build these **seven specific pieces**, plus review mockups and the final ordering handoff:
 
 | Piece | Starting format |
 |---|---|
@@ -62,15 +62,18 @@ Build these **six specific pieces**, plus review mockups and the final ordering 
 | Handwritten note card | 5.5 × 4.25 inches closed; landscape top fold; branded exterior and blank writable interior |
 | Branded card envelope | A2, 5.75 × 4.375 inches; front branding and matching flap accent where the supplier supports it |
 | Company brochure | Four-panel half fold; 11 × 8.5 inches flat, 5.5 × 8.5 closed; approximately 300–450 words |
+| Office directions sheet | One-page US Letter portrait; branded template, verified office map, address and Google Maps QR code; editable Word and PDF |
+
+For the directions sheet, use the confirmed appointment location and office phone from existing inputs. Ask only if the meeting location is missing or ambiguous (for example, multiple offices). If the user says the appointment is virtual, omit the physical directions sheet and record that exception; do not invent an office. Read [Office directions](references/office-directions.md) and customize the bundled [Word template](assets/office-directions-template.docx).
 
 Default to **50 pre-appointment packets**, one of each piece per recipient, unless a quantity is supplied. Order quantities may differ because of vendor minimums; record needed, ordered and surplus quantities separately. Defaults are starting specifications, not proof of current product availability.
 
-Do not add a book, workshop workbook, meeting insert, business card or unrelated merchandise unless requested. Brochure length may change when the user's content requires it. Keep purchases and outbound postage separate from design work.
+Do not add a book, workshop workbook, additional meeting insert, business card or unrelated merchandise unless requested. Brochure length may change when the user's content requires it. Keep purchases and outbound postage separate from design work.
 
 ## Build and revision workflow
 
 1. **Prepare the brief and source the products.** Read [Product and print specifications](references/product-specifications.md). Prefer a manageable supplier set, but let actual brand match, minimum quantity and printable area determine selection. Browse current official product pages and obtain exact templates before final sizing. Record source URLs and dates in working notes.
-2. **Design the full first pass.** Unless the user asks for sequential review, make all six coordinated designs without stopping for approval between every item. Use the advisor's actual brand, readable type, generous writing space and a short benefit message. Use a small shared set of design tokens rather than independently styling each item.
+2. **Design the full first pass.** Unless the user asks for sequential review, make all seven coordinated designs without stopping for approval between every item. Use the advisor's actual brand, readable type, generous writing space and a short benefit message. Use a small shared set of design tokens rather than independently styling each item.
 3. **Make exact artwork and illustrative mockups.** Save editable sources, native text/vector PDFs, and realistic product mockups based on those exact designs. Use available PDF/document authoring tools and image generation for photo mockups when available; equivalent tools are acceptable. Follow applicable tool instructions. Do not use raster mockups as production artwork. Inspect every local reference before image editing. Preserve the real logo and real portraits in authoritative PDFs; check generated mockups for altered names, colors, logos or faces. Identify mockups as illustrative when they differ.
 4. **Review and revise.** Show a concise overall preview plus readable PDF links. Apply requested edits across all affected pieces and refresh their mockups. Preserve approved items unless a requested shared change affects them. Do not repeatedly ask for approvals already given. Keep superseded concepts out of the selected set.
 5. **Finish production preparation.** Confirm trim, bleed, folds, writable stock, imprint dimensions, fonts, image resolution and selected printer color requirements. Prepare exact exports whenever the necessary specifications are available. A missing vendor template or supplied footer can block a production export without blocking unrelated designs. Do not invent geometry or claim supplier acceptance; capture the precise remaining action.
@@ -94,6 +97,7 @@ This workflow needs source review, product research, design/file creation, and o
 - Notepad: mostly writing space, subtle rules, small brand presence and optional short prompt/next-step area. Keep content away from glue and trim.
 - Card and envelope: personal and welcoming. Leave the inside blank for handwriting. Appointment-specific details belong in the handwritten note unless the user requests variable printing.
 - Brochure: cover value proposition; authentic team introduction; a few meaningful service themes; and what to expect at the first meeting. Make it readable in a short sitting. Adapt the themes to the advisor, rather than copying the example firm's three service categories.
+- Office directions: preserve the supplied/template layout while applying the advisor’s brand. Include the correct map, address, phone and verified Google Maps QR. Keep real internal padding in colored text boxes, vertically center header/footer text, and check that no copy touches an edge. Use confirmed parking facts or a short phone-help line.
 - Use supported factual claims. Do not invent credentials, testimonials, press logos, savings, guarantees, prices, free appointments or meeting durations. Reserve room for actual required firm text without manufacturing legal language.
 
 ## Keep status accurate
